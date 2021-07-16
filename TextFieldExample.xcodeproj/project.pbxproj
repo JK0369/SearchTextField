@@ -14,6 +14,7 @@
 		E046DF8E26A1D3DF00BA88E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E046DF8D26A1D3DF00BA88E3 /* Assets.xcassets */; };
 		E046DF9126A1D3DF00BA88E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E046DF8F26A1D3DF00BA88E3 /* LaunchScreen.storyboard */; };
 		E046DF9A26A1D44900BA88E3 /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046DF9926A1D44900BA88E3 /* BaseTextField.swift */; };
+		E046DF9C26A1D58000BA88E3 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046DF9B26A1D58000BA88E3 /* SearchTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E046DF9026A1D3DF00BA88E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E046DF9226A1D3DF00BA88E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E046DF9926A1D44900BA88E3 /* BaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		E046DF9B26A1D58000BA88E3 /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				E046DF9926A1D44900BA88E3 /* BaseTextField.swift */,
+				E046DF9B26A1D58000BA88E3 /* SearchTextField.swift */,
 			);
 			path = SearchTextField;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E046DF9C26A1D58000BA88E3 /* SearchTextField.swift in Sources */,
 				E046DF8926A1D3DD00BA88E3 /* ViewController.swift in Sources */,
 				E046DF8526A1D3DD00BA88E3 /* AppDelegate.swift in Sources */,
 				E046DF9A26A1D44900BA88E3 /* BaseTextField.swift in Sources */,
